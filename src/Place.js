@@ -31,7 +31,7 @@ function Place({ places, setPlace,data }) {
     };
 
     updatePlacesWithLocation();
-  }, []);
+  }, [data]);
   const calculateDistance = (lat1, lon1, lat2, lon2) => {
     const toRadians = (degree) => (degree * Math.PI) / 180;
 
@@ -74,7 +74,7 @@ function Place({ places, setPlace,data }) {
                     </button>
                     <p className="text-sm mt-1 text-gray-200">Review</p>
                   </div>
-                  <div className="mt-2 font-bold">
+                  <div className="mt-2 text-green-400 font-bold">
                      {place?.distance}Km
                    </div>
                 </div>

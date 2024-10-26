@@ -120,7 +120,7 @@ function App() {
               initial={{ y: -50, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.5, delay: 2.5 }}
-              className="flex justify-center items-center px-6 py-2 rounded-xl gap-4 border-2 border-blue-700 shadow-full shadow-blue-600/55 cursor-pointer"
+              className="flex mb-4 justify-center items-center px-6 py-2 rounded-xl gap-4 border-2 border-blue-700 shadow-full shadow-blue-600/55 cursor-pointer"
               onClick={() => setOpen(true)}
             >
               <svg
